@@ -1,0 +1,125 @@
+/* Tampilan untuk perangkat ponsel */
+@media (max-width: 767px) {
+    .header {
+      width: 100%;
+    }
+  
+    .header p {
+      font-size: 36px;
+    }
+  
+    nav {
+      width: 100%;
+    }
+  
+    nav ul {
+      display: block;
+      width: 100%;
+    }
+  
+    nav ul li {
+      float: none;
+      width: 100%;
+    }
+  
+    nav ul li.login,
+    nav ul li.logout {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .box-title {
+      width: 100%;
+    }
+  
+    #box {
+      width: 100%;
+    }
+  
+    table.news,
+    table.article {
+      width: 100%;
+    }
+  
+    .tombol-biru,
+    .tombol-merah {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .jersey {
+      width: 100%;
+    }
+  
+    .pesan {
+      margin: 10px 0;
+    }
+  
+    .logout-button {
+      margin-top: 10px;
+    }
+  }
+  
+  /* Tampilan untuk perangkat tablet (lebar 768px - 1024px) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .header {
+      width: 80%;
+    }
+  
+    .header p {
+      font-size: 42px;
+    }
+  
+    .box-title {
+      width: 80%;
+    }
+  
+    #box {
+      width: 80%;
+    }
+  
+    .jersey {
+      width: 80%;
+    }
+  
+    .pesan {
+      margin: 10px 0;
+    }
+  
+    .logout-button {
+      margin-top: 10px;
+    }
+  }
+  
+  /* Tampilan untuk perangkat desktop (lebar > 1024px) */
+  @media (min-width: 1025px) {
+    .header {
+      width: 70%;
+    }
+  
+    .header p {
+      font-size: 50px;
+    }
+  
+    .box-title {
+      width: 70%;
+    }
+  
+    #box {
+      width: 70%;
+    }
+  
+    .jersey {
+      width: 200px; /* Kembalikan ukuran jersey ke ukuran aslinya */
+    }
+  
+    .pesan {
+      margin: 10px;
+    }
+  
+    .logout-button {
+      margin-top: 20px;
+    }
+  }
+  
